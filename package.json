@@ -1,0 +1,30 @@
+{
+  "name": "gulp-dot2module",
+  "version": "0.2016.10.7",
+  "description": "Pre-compile doT templates to commonJS modules.Support multiple sub-tpl.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homkai/gulp-dot2module.git"
+  },
+  "keywords": [
+    "gulp",
+    "dot",
+    "module",
+    "multiple"
+  ],
+  "author": "Homkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/homkai/gulp-dot2module/issues"
+  },
+  "homepage": "https://github.com/homkai/gulp-dot2module#readme",
+  "dependencies": {
+    "dot": "^1.0.3",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
