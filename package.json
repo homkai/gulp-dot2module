@@ -11,9 +11,13 @@
     "url": "git+https://github.com/homkai/gulp-dot2module.git"
   },
   "keywords": [
+    "gulpplugin",
     "gulp",
     "dot",
+    "template",
     "module",
+    "seajs",
+    "requirejs",
     "multiple"
   ],
   "author": "Homkai",
