@@ -38,7 +38,6 @@ function compile(contents, options){
 
     var output = [];
     if(!regStart.test(contents)){
-        // 如果没有指定模板，则按普通html整体暴露
         output.push("  module.exports = " + dot.template(getChildCode(contents)).toString() + ";");
     }else{
         var input = contents.replace(regRepAll, '|###|$1').split('|###|').slice(1);
